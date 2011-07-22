@@ -14,3 +14,7 @@
        -o-box-shadow: $full;
           box-shadow: $full;
 }
+
+@mixin ie-box-shadow($color, $direction, $strength){
+  filter: progid:DXImageTransform.Microsoft.Shadow(color='$color', Direction=$direction, Strength=$strength);
+}
