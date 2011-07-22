@@ -23,6 +23,8 @@
   background-image:     -ms-linear-gradient($pos, $full);
   background-image:      -o-linear-gradient($pos, $full);
   background-image:        unquote("linear-gradient(#{$pos}, #{$full})");
+  background:             filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$G1', endColorstr='$G2');
+  
 }
 
 // Usage: Gradient position is optional, default is top. Position can be a degree. Color stops are optional as well.
